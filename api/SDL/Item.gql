@@ -1,0 +1,10 @@
+module.exports = `
+extend type Query {
+  items: [Item]
+}
+
+type Item {
+    id: ID
+    title: String
+}
+`
