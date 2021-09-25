@@ -1,8 +1,8 @@
 import './style.css'
 import { h } from 'preact'
-import App from './app';
 import { createClient, ssrExchange, dedupExchange, cacheExchange, fetchExchange } from '@urql/core'
 import { Provider } from '@urql/preact'
+import App from './app'
 
 const isServerSide = typeof window === 'undefined'
 
